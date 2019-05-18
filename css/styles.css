@@ -1,0 +1,36 @@
+body { font: 12px Arial;}
+
+path {
+    stroke-width: 2;
+    fill: none;
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+  }
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+circle:hover {
+    stroke-width: 2;
+}
+
+svg.tooltip {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    padding: 2px;
+    font: 12px sans-serif;
+    background: whitesmoke;
+    border:2px black;
+    border-radius: 8px;
+    pointer-events: none;
+}
